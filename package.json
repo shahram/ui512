@@ -1,0 +1,25 @@
+{
+  "name": "ui512",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ui5 serve",
+    "build": "mbt build",
+    "test": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ui5-middleware-cfdestination": "^0.10.6"
+  },
+  "ui5": {
+    "dependencies": [
+      "ui5-middleware-cfdestination"
+    ]
+  },
+  "dependencies": {
+    "@ui5/cli": "^3.0.0"
+  }
+}
