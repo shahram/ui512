@@ -1,0 +1,37 @@
+<mvc:View
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m"
+	controllerName="de.jlabs.demo.controller.App">
+	<App>
+		<pages>
+			<Page title="2 Minutes of SAPUI5">
+				<content>
+					<Panel
+						id="appPanel"
+						headerText="Hello, Dev!">
+						<content>
+						
+							<Button
+								text="Counter Button"
+								press=".incrementBy1"/>
+
+							<Text id="counter" text="0"/>
+							<List
+								id="episodeOverview"
+								headerText="{youTubeModel>/items/1/snippet/channelTitle}"
+								items="{youTubeModel>/items}">
+								<items>
+									<StandardListItem 
+										title="{youTubeModel>snippet/title}"
+										description="{youTubeModel>snippet/publishedAt}"
+										/>
+								</items>
+							</List>
+						</content>
+					</Panel>
+				</content>
+			</Page>
+		</pages>	
+	</App>
+
+</mvc:View>

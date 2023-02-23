@@ -1,0 +1,2 @@
+sap.ui.define(["sap/ui/core/mvc/Controller","sap/ui/model/json/JSONModel"],function(e,t){"use strict";return e.extend("ui5.controller.App",{incrementBy1:function(){let e=this.getView().byId("counter");let t=parseInt(e.getText());let n=t+1;e.setText(n)},onInit:function(){let e=this;let t={url:"/user-api/currentUser",method:"GET"};jQuery.ajax(t).done(function(t){let n=JSON.parse(t);let r=n.firstName;e.getView().byId("appPanel").setHeaderText(`Hello, ${r}!`)})}})});
+//# sourceMappingURL=App.controller.js.map

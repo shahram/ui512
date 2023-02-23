@@ -1,0 +1,2 @@
+const passport=require("passport");const{JWTStrategy:JWTStrategy}=require("@sap/xssec");const xsenv=require("@sap/xsenv");passport.use(new JWTStrategy(xsenv.getServices({uaa:{tag:"xsuaa"}}).uaa));app.use(passport.initialize());app.use(passport.authenticate("JWT",{session:false}));
+//# sourceMappingURL=index.js.map
