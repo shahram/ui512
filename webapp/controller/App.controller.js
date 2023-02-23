@@ -28,20 +28,20 @@ sap.ui.define([
                 "method": "GET"
             }
             
-            fetch("/user-api/currentUser")
+/*             fetch("/user-api/currentUser")
                 .then((res) => {
                     let userInfo = JSON.parse(res);
                     let userFirstName = userInfo.firstName;
                     controller.getView().byId("appPanel")
                         .setHeadrText(`Hello, ${userFirstName}`); 
-                })
-/*             jQuery.ajax(reqSettings)
+                }) */
+            jQuery.ajax(reqSettings)
                 .done(function(response) {
                     let userInfo = JSON.parse(response);
                     let userFirstName = userInfo.firstName;
                     controller.getView().byId("appPanel")
                         .setHeaderText(`Hello, ${userFirstName}!`)
-                }) */
+                })
         }
 	});
 });

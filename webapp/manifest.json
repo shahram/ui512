@@ -7,7 +7,7 @@
 
         "dataSources": {
             "youTubeAPI": {
-                "uri": "/youTubeURL/youtube/v3/playlistItems?part=contentDetails%2Csnippet&playlistId=PL6RpkC85SLQBM78mD6AiJ1vKlSB7OWtUz&key=AIzaSyD_Tey2nk2sBrdoDstN6hmdOfPv4aZtaTI",
+                "uri": "/youTubeURL/youtube/v3/playlistItems?part=contentDetails%2Csnippet&playlistId=PL6RpkC85SLQBM78mD6AiJ1vKlSB7OWtUz&key=apiKey",
                 "type": "JSON"
             }
         }

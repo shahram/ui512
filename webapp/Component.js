@@ -1,9 +1,7 @@
 sap.ui.define([
 	// "sap/ui/base/ManagedObject"
 	"sap/ui/core/UIComponent"
-], function(
-	UIComponent
-) {
+], function(UIComponent) {
 	"use strict";
 
 	return UIComponent.extend("de.jlabs.demo.Component", {

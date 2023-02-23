@@ -1,4 +1,4 @@
-node_modules
+log*.txt
 package-lock.json
 resources
 dist
@@ -9,3 +9,5 @@ mta-op-*
 *-dbg.*js
 *-preload.js
 approuter/webapp
+default-env.json
+node_modules
